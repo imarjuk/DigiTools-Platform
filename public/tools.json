@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "name": "AI Resume Builder",
+    "description": "Create professional resumes with AI assistance.\nOptimized for ATS and recruiter-friendly formats.",
+    "price": 20,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF"],
+    "icon": "../src/assets/products/portfolio.png"
+  },
+  {
+    "id": 2,
+    "name": "Smart Copy Generator",
+    "description": "Generate marketing copy in seconds.\nPerfect for ads, blogs, and social media.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Ad copy generation", "Blog writer", "Social captions"],
+    "icon": "../src/assets/products/operation.png"
+  },
+  {
+    "id": 3,
+    "name": "AI Image Studio",
+    "description": "Create stunning images from text prompts.\nIdeal for designers and content creators.",
+    "price": 15,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Text-to-image", "High resolution export", "Style presets"],
+    "icon": "../src/assets/products/design-tool.png"
+  },
+  {
+    "id": 4,
+    "name": "Voice AI Generator",
+    "description": "Convert text into realistic voiceovers.\nSupports multiple languages and tones.",
+    "price": 25,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Multi-language support", "Voice cloning", "Download audio"],
+    "icon": "../src/assets/products/design-tool.png"
+  },
+  {
+    "id": 5,
+    "name": "AI Code Assistant",
+    "description": "Write and debug code faster.\nSupports multiple programming languages.",
+    "price": 10,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Auto code completion", "Bug fixing", "Multi-language support"],
+    "icon": "../src/assets/products/writing_2327400 1.png"
+  },
+  {
+    "id": 6,
+    "name": "AI Video Maker",
+    "description": "Generate videos from scripts automatically.\nPerfect for YouTube and marketing.",
+    "price": 49,
+    "period": "monthly",
+    "tag": "most wanted",
+    "tagType": "most wanted",
+    "features": ["Text-to-video", "Stock footage", "Auto subtitles"],
+    "icon": "../src/assets/products/operation.png"
+  },
+  {
+    "id": 7,
+    "name": "AI Chatbot Builder",
+    "description": "Build smart chatbots for websites.\nNo coding required for setup.",
+    "price": 0,
+    "period": "yearly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Drag & drop builder", "Website integration", "Analytics dashboard"],
+    "icon": "../src/assets/products/social-media.png"
+  },
+  {
+    "id": 8,
+    "name": "AI Presentation Maker",
+    "description": "Create slides instantly using AI.\nGreat for students and professionals.",
+    "price": 12,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Auto slide generation", "Templates", "Export to PPT/PDF"],
+    "icon": "../src/assets/products/shopping-cart.png"
+  }
+]
