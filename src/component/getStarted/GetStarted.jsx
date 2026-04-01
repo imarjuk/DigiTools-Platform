@@ -2,61 +2,67 @@ import React from 'react';
 
 const GetStarted = () => {
     return (
-        <div>
-            <div className="card w-80 bg-base-100 shadow-xl border relative">
+        <div className='bg-slate-100 text-center'>
 
-            
-                <div className="absolute top-3 right-3">
-                    <span className="text-xs px-3 py-1 rounded-full bg-yellow-100 text-yellow-600 font-medium">
-                        Best Seller
-                    </span>
+            <h2 className='font-bold text-5xl pt-10'>Get Started in 3 Steps</h2>
+            <p className='py-5'>Start using premium digital tools in minutes, not hours.</p>
+
+            <div className='grid grid-cols-1 md:grid-cols-3 justify-center mx-auto my-10 w-11/12'>
+                 
+                <div className="card bg-base-100 w-72 shadow-sm mb-10 relative ">
+                    <div className="absolute top-3 right-3">
+                                    <span className="text-xs px-3 py-2 rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white font-medium">
+                                     01
+                                    </span>
+                                </div>
+                    <figure className="px-10 pt-10">
+                        <img
+                            src="/src/assets/user.png"
+                            alt=""
+                            className="rounded-xl" />
+                    </figure>
+                    <div className="card-body items-center text-center">
+                        <h2 className="card-title">Create Account</h2>
+                        <p>Sign up for free in seconds. No credit card required to get started.</p>
+                    </div>
                 </div>
-
-                <div className="card-body">
-
-                    {/* Icon */}
-                    <div className="w-10 h-10 rounded-lg bg-purple-100 flex items-center justify-center mb-2">
-                        ✍️
+                <div className="card bg-base-100 w-72 shadow-sm mb-10 relative">
+                    <div className="absolute top-3 right-3">
+                                    <span className="text-xs px-3 py-2 rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white font-medium">
+                                     02
+                                    </span>
+                                </div>
+                    <figure className="px-10 pt-10">
+                        <img
+                            src="/src/assets/package.png"
+                            alt=""
+                            className="rounded-xl" />
+                    </figure>
+                    <div className="card-body items-center text-center">
+                        <h2 className="card-title">Choose Products</h2>
+                        <p>Browse our catalog and select the tools <br /> that fit your needs.</p>
                     </div>
-
-                    {/* Title */}
-                    <h2 className="card-title text-lg font-bold">
-                        AI Writing Pro
-                    </h2>
-
-                    {/* Description */}
-                    <p className="text-sm text-gray-500">
-                        Generate high-quality content, blogs, and marketing copy in seconds with advanced AI.
-                    </p>
-
-                    {/* Price */}
-                    <p className="text-xl font-bold mt-2">
-                        $29<span className="text-sm font-normal text-gray-500">/Mo</span>
-                    </p>
-
-                    {/* Features */}
-                    <ul className="mt-3 space-y-1 text-sm text-gray-600">
-                        <li className="flex items-center gap-2">
-                            <span className="text-green-500">✔</span> Unlimited AI generations
-                        </li>
-                        <li className="flex items-center gap-2">
-                            <span className="text-green-500">✔</span> 50+ writing templates
-                        </li>
-                        <li className="flex items-center gap-2">
-                            <span className="text-green-500">✔</span> Grammar checker
-                        </li>
-                    </ul>
-
-                    {/* Button */}
-                    <div className="mt-5">
-                        <button className="w-full py-2 rounded-full text-white font-semibold bg-gradient-to-r from-purple-500 to-pink-500 hover:opacity-90 transition">
-                            Buy Now
-                        </button>
+                </div>
+                <div className="card bg-base-100 w-72 shadow-sm mb-10 relative">
+                    <div className="absolute top-3 right-3">
+                                    <span className="text-xs px-3 py-2 rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white font-medium">
+                                     03
+                                    </span>
+                                </div>
+                    <figure className="px-10 pt-10">
+                        <img
+                            src="/src/assets/rocket.png"
+                            alt=""
+                            className="rounded-xl" />
+                    </figure>
+                    <div className="card-body items-center text-center">
+                        <h2 className="card-title">Start Creating</h2>
+                        <p>Download and start using your premium <br /> tools immediately.</p>
                     </div>
-
                 </div>
             </div>
         </div>
+
     );
 };
 

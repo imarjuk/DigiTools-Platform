@@ -7,6 +7,8 @@ import GetStarted from './component/getStarted/GetStarted'
 import Navbar from './component/navbar/Navbar'
 import Tools from './component/tools/Tools'
 import ToolsHead from './component/tools/ToolsHead'
+import BannerBottom from './component/banner/BannerBottom'
+import PriceCard from './component/pricingCard/PriceCard'
 
 const getTools = async () => {
   const res = await fetch('/tools.json')
@@ -25,6 +27,7 @@ function App() {
 
       <Navbar></Navbar>
       <Banner></Banner>
+      <BannerBottom></BannerBottom>
       <ToolsHead></ToolsHead>
       <div className="tabs tabs-box justify-center bg-transparent">
         <input type="radio"
@@ -47,7 +50,8 @@ function App() {
 
       {activeTab === "Cart" && <Cart carts={carts}   
       setCarts={setCarts}></Cart>}
-      {/* <GetStarted></GetStarted> */}
+      <GetStarted></GetStarted>
+      <PriceCard></PriceCard>
       <Footer></Footer>
 
 

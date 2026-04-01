@@ -20,7 +20,7 @@ const ToolCard = ({tool, carts, setCarts}) => {
     }
 
     return (
-         <div className="card w-96 bg-base-100 shadow-sm border relative">
+         <div className="card w-96 bg-base-100 shadow-sm border-slate-50 relative">
                                 <div className="absolute top-3 right-3">
                                     <span className="text-xs px-3 py-1 rounded-full bg-yellow-100 text-yellow-600 font-medium">
                                         {tool.tag}
