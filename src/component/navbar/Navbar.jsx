@@ -29,6 +29,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end gap-5">
+                    <span><img src="https://i.ibb.co.com/6Rx2GDbQ/shopping-cart.png" alt="" /></span>
                     <p>Login</p>
                     <a className="btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-full text-white">Get Started</a>
                 </div>

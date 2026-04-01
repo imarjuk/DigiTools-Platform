@@ -17,7 +17,7 @@ const GetStarted = () => {
                                 </div>
                     <figure className="px-10 pt-10">
                         <img
-                            src="/src/assets/user.png"
+                            src="https://i.ibb.co.com/1G1BT6xq/user.png"
                             alt=""
                             className="rounded-xl" />
                     </figure>
@@ -34,7 +34,7 @@ const GetStarted = () => {
                                 </div>
                     <figure className="px-10 pt-10">
                         <img
-                            src="/src/assets/package.png"
+                            src="https://i.ibb.co.com/WWb6qqp8/package.png"
                             alt=""
                             className="rounded-xl" />
                     </figure>
@@ -51,7 +51,7 @@ const GetStarted = () => {
                                 </div>
                     <figure className="px-10 pt-10">
                         <img
-                            src="/src/assets/rocket.png"
+                            src="https://i.ibb.co.com/Jwx0ks25/rocket.png"
                             alt=""
                             className="rounded-xl" />
                     </figure>

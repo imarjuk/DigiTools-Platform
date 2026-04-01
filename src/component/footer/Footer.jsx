@@ -110,9 +110,9 @@ const Footer = () => {
             <div className="md:col-span-3">
               <h3 className="text-white font-semibold mb-6 text-lg"> Social Link</h3>
               <div className='flex gap-2'>
-                <div><img src="/src/assets/Instagram.png" alt="" /></div>
-                <div><img src="/src/assets/Facebook.png" alt="" /></div>
-                <div><img src="/src/assets/Twitter.png" alt="" /></div>
+                <div><img src="https://i.ibb.co.com/LhpBQCcC/Instagram.png" alt="" /></div>
+                <div><img src="https://i.ibb.co.com/gMCHxZF0/Facebook.png" alt="" /></div>
+                <div><img src="https://i.ibb.co.com/BVkvTvdx/Twitter.png" alt="" /></div>
 
               </div>
             </div>
