@@ -7,9 +7,9 @@ const GetStarted = () => {
             <h2 className='font-bold text-5xl pt-10'>Get Started in 3 Steps</h2>
             <p className='py-5'>Start using premium digital tools in minutes, not hours.</p>
 
-            <div className='grid grid-cols-1 md:grid-cols-3 justify-center mx-auto my-10 w-11/12'>
+            <div className='flex flex-col md:flex-row  gap-10 w-10/12 mx-auto my-10 '>
                  
-                <div className="card bg-base-100 w-72 shadow-sm mb-10 relative ">
+                <div className="card bg-base-100 w-full md:w-1/3 mx-auto shadow-sm mb-10 relative ">
                     <div className="absolute top-3 right-3">
                                     <span className="text-xs px-3 py-2 rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white font-medium">
                                      01
@@ -26,7 +26,7 @@ const GetStarted = () => {
                         <p>Sign up for free in seconds. No credit card required to get started.</p>
                     </div>
                 </div>
-                <div className="card bg-base-100 w-72 shadow-sm mb-10 relative">
+                <div className="card bg-base-100 w-full md:w-1/3 mx-auto shadow-sm mb-10 relative">
                     <div className="absolute top-3 right-3">
                                     <span className="text-xs px-3 py-2 rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white font-medium">
                                      02
@@ -43,7 +43,7 @@ const GetStarted = () => {
                         <p>Browse our catalog and select the tools <br /> that fit your needs.</p>
                     </div>
                 </div>
-                <div className="card bg-base-100 w-72 shadow-sm mb-10 relative">
+                <div className="card bg-base-100 w-full md:w-1/3 mx-auto shadow-sm mb-10 relative">
                     <div className="absolute top-3 right-3">
                                     <span className="text-xs px-3 py-2 rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white font-medium">
                                      03

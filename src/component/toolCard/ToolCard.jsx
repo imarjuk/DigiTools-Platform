@@ -22,7 +22,7 @@ const ToolCard = ({tool, carts, setCarts}) => {
     return (
          <div className="card w-96 bg-base-100 shadow-sm border-slate-50 relative">
                                 <div className="absolute top-3 right-3">
-                                    <span className="text-xs px-3 py-1 rounded-full bg-yellow-100 text-yellow-600 font-medium">
+                                    <span className="text-xs px-3 py-1 rounded-full bg-yellow-100 text-yellow-600  font-medium">
                                         {tool.tag}
                                     </span>
                                 </div>
@@ -35,18 +35,13 @@ const ToolCard = ({tool, carts, setCarts}) => {
                                         <p className="text-xl">${tool.price}<span className="text-sm font-normal text-gray-500">/{tool.period}</span></p>
                                     </div>
                                     <ul className="mt-6 flex flex-col gap-2 text-xs">
-                                        <li>
+                                        
+                                        {
+                                            tool.features.map((feature)=>(<li key={feature}>
                                             <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-                                            <span>{tool.features}</span>
-                                        </li>
-                                        <li>
-                                            <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-                                            <span>Customizable style templates</span>
-                                        </li>
-                                        <li>
-                                            <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-                                            <span>Batch processing capabilities</span>
-                                        </li>
+                                            <span>{feature}</span>
+                                        </li>))
+                                        }
 
                                     </ul>
                                     <div className="mt-6">

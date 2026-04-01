@@ -30,9 +30,12 @@ const Banner = () => {
                             <button className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-full  hover:bg-[#9514FA] transition-all px-8 py-2  font-semibold text-lg  flex items-center gap-3 group text-white">
                                 Explore Products
                             </button>
-                            <button className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-full  hover:bg-[#9514FA] transition-all px-8 py-2  font-semibold text-lg  flex items-center gap-3 group text-white">
-                              <FaPlay /> Watch Demo
+                          
+
+                            <button className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-full bg-clip-text text-transparent border-2 border-[#9514FA] transition-all px-8 py-2  font-semibold text-lg  flex items-center gap-3 group">
+                            <img src="https://i.ibb.co.com/dJgdYqWB/Play.png" alt="" /> Watch Demo
                             </button>
+                           
                     
                         </div>
 
