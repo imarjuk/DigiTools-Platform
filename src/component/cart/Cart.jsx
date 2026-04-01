@@ -7,6 +7,7 @@ const Cart = ({ carts, setCarts }) => {
 
     const handleProceedToCheckout = ()=>{
         setCarts([])
+        toast.success("Payment Successful")
     }
 
     const handleRemove =(cart)=>{
@@ -29,7 +30,7 @@ const Cart = ({ carts, setCarts }) => {
                  <div>
                     {
                 carts.map(cart =>
-                    <div className='flex justify-between items-center p-5 mx-10 my-5 bg-slate-100 rounded-2xl'>
+                    <div className='flex justify-between items-center p-5 mx-10 my-5 bg-slate-100 rounded-2xl' key={cart.id}>
                         <div className='flex items-center gap-5 space-y-2'>
 
                             <div className='bg-white p-3 rounded-full'>

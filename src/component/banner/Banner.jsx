@@ -12,7 +12,7 @@ const Banner = () => {
                             <p className='bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent text-sm font-medium px-5 py-2'> New: AI-Powered Tools Available</p>
                         </div>
 
-                        <h1 className="text-4xl lg:text-7xl font-bold text-[#101727]/90">
+                        <h1 className="text-4xl lg:text-6xl font-bold text-[#101727]/90">
                             Supercharge Your
                             <br />
                             Digital Workflow
