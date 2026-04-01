@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { toast } from 'react-toastify';
 
 const ToolCard = ({tool, carts, setCarts}) => {
 
@@ -7,6 +8,7 @@ const ToolCard = ({tool, carts, setCarts}) => {
     const handleBuyNow = ()=>{
         setBuyNow(true)
         setCarts([...carts, tool])
+        toast.success("Item Added to Cart")
     }
 
     return (
