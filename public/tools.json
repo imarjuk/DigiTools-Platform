@@ -85,6 +85,6 @@
     "tag": "popular",
     "tagType": "popular",
     "features": ["Auto slide generation", "Templates", "Export to PPT/PDF"],
-    "icon": "../src/assets/products/shopping-cart.png"
+    "icon": "../src/assets/products/operation.png"
   }
 ]
